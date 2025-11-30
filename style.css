@@ -728,3 +728,28 @@ button {
     border-right: none;
   }
 }
+
+.weather {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.weather img {
+  vertical-align: middle;
+}
+.news-headlines {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.news-headlines a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.news-headlines a:hover {
+  text-decoration: underline;
+}
